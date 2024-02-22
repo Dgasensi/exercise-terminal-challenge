@@ -1,0 +1,39 @@
+    1  git init
+    2  mkdir tutorial_terminal
+    3  cd tutorial_terminal/
+    4  touch hello_world.py
+    5  nano hello_world.py 
+    6  mkdir scripts_python
+    7  mv hello_world.py scripts_python/
+    8  mkdir scripts_bash
+    9  cd scripts_bash/
+   10  touch python_exec.sh
+   11  nano python_exec.sh 
+   12  chmod +x python_exec.sh 
+   13  ./python_exec.sh 
+   14  cd ..
+   15  cd scripts_python/
+   16  cp hello_world.py copia_hello_w.py
+   17  nano copia_hello_w.py 
+   18  cd ..
+   19  mkdir res
+   20  cd scripts_python/
+   21  ls
+   22  python3 copia_hello_w.py 
+   23  nano copia_hello_w.py 
+   24  python3 copia_hello_w.py 
+   25  rm hello_world.py 
+   26  ls
+   27  cd ..
+   28  cat res/test.txt
+   29  mkdir data
+   30  cd data
+   31  wget https://es.getsamplefiles.com/download/tar/sample-1.tar
+   32  tar -xvf sample-1.tar 
+   33  find -name "*.jpg"
+   34  pwd
+   35  cd ..
+   36  cd tutorial_terminal/
+   37  touch historial_Felix.txt
+   38  hystory
+   39  history
